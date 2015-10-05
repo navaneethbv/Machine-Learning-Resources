@@ -19,7 +19,7 @@ A collection of machine learning resources - books, courses, papers, software ..
 * [Blogs](#blogs)
 * [People](#people)
 
-## Books
+## Books 
 
 The following list contains several books - whenever free online versions are available, this should be noted correspondingly.
 
