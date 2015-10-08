@@ -4,7 +4,7 @@ A collection of machine learning resources - books, courses, papers, software ..
 
 ## Index
 
-* [Books](#books)
+* [Books](#books) 
     * [Chapters](#chapters)
 * [Courses](#courses)
     * [Single Lectures](#single)
