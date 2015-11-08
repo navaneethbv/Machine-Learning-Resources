@@ -6,7 +6,7 @@ A collection of machine learning resources - books, courses, papers, software ..
 
 * [Books](#books) 
     * [Chapters](#chapters)
-* [Courses](#courses)
+* [Courses](#courses) 
     * [Single Lectures](#single)
 * [PhD Theses](#phd-theses)
 * [Papers](#papers)
