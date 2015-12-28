@@ -3,7 +3,7 @@
 A collection of machine learning resources - books, courses, papers, software ... - for students.
 
 ## Index
-
+ 
 * [Books](#books) 
     * [Chapters](#chapters)
 * [Courses](#courses)  
