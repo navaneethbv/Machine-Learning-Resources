@@ -15,7 +15,7 @@ A collection of machine learning resources - books, courses, papers, software ..
 * [StackExchange](#stackexchange)
     * [Cross Validated](#cross-validated)
     * [Stack Overflow](#stack-overflow)
-* [Software](#software)
+* [Software](#software) 
 * [Blogs](#blogs)
 * [People](#people)
 
