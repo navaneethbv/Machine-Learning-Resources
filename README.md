@@ -10,7 +10,7 @@ A collection of machine learning resources - books, courses, papers, software ..
     * [Single Lectures](#single)
 * [PhD Theses](#phd-theses)
 * [Papers](#papers)
-    * [Journal and Magazine Papers](#journal-and-magazine-papers)
+    * [Journal and Magazine Papers](#journal-and-magazine-papers) 
     * [Conference Papers](#conference-papers)
 * [StackExchange](#stackexchange)
     * [Cross Validated](#cross-validated)
