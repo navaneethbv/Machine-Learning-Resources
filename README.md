@@ -1,6 +1,6 @@
 # Machine Learning Resources
 
-A collection of machine learning resources - books, courses, papers, software ... - for students.
+A collection of machine learning resources - books, courses, papers, software... - for students.
 
 ## Index 
  
