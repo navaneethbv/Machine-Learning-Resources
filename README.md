@@ -1,25 +1,24 @@
 # Machine Learning Resources
 
-A collection of machine learning resources - books, courses, papers, software... - for students.
+A curated collection of machine learning resources for students, practitioners, and interview preparation.
+The list keeps the original repository content and adds selected resources from related collections with rewritten descriptions.
 
-## Index 
- 
-* [Books](#books)
-    * [Chapters](#chapters)
-* [Courses](#courses)  
+## Contents
+
+* [Start Here](#start-here)
+* [Books And Reference Guides](#books-and-reference-guides)
+    * [Core Books](#core-books)
+    * [Book Chapters](#book-chapters)
+    * [Math And Data Science Guides](#math-and-data-science-guides)
+    * [Cheat Sheets](#cheat-sheets)
+* [Courses And Lectures](#courses-and-lectures)
+    * [University Courses](#university-courses)
     * [Single Lectures](#single-lectures)
-* [PhD Theses](#phd-theses)
-* [Papers](#papers)
-    * [Journal and Magazine Papers](#journal-and-magazine-papers) 
-    * [Conference Papers](#conference-papers)
-* [StackExchange](#stackexchange)
-    * [Cross Validated](#cross-validated)
-    * [Stack Overflow](#stack-overflow)
-* [Software](#software) 
-* [Blogs](#blogs)
-* [People](#people)
-* [Additional Learning Paths](#additional-learning-paths)
-* [Additional Topic Tutorials](#additional-topic-tutorials)
+    * [Applied Courses And Tutorials](#applied-courses-and-tutorials)
+* [Research Papers And Theses](#research-papers-and-theses)
+    * [PhD Theses](#phd-theses)
+    * [Journal And Magazine Papers](#journal-and-magazine-papers)
+* [Topic Tutorials](#topic-tutorials)
     * [Foundations](#foundations)
     * [Statistics](#statistics)
     * [Artificial Intelligence](#artificial-intelligence)
@@ -37,14 +36,45 @@ A collection of machine learning resources - books, courses, papers, software...
     * [Bayesian Machine Learning](#bayesian-machine-learning)
     * [Semi-Supervised Learning](#semi-supervised-learning)
     * [Optimization](#optimization)
-* [Additional Cheat Sheets](#additional-cheat-sheets)
-* [Additional Practice And Interview Prep](#additional-practice-and-interview-prep)
-* [Additional Blogs And Software](#additional-blogs-and-software)
-* [Additional Quantitative Finance And Trading](#additional-quantitative-finance-and-trading)
-* [Additional Data Science Practice Resources](#additional-data-science-practice-resources)
-* [Additional English Interview Prep Resources](#additional-english-interview-prep-resources)
+    * [Feature Engineering And Information Theory](#feature-engineering-and-information-theory)
+* [Practice And Interview Prep](#practice-and-interview-prep)
+* [Tools, Code, Datasets, And Libraries](#tools-code-datasets-and-libraries)
+    * [Software](#software)
+    * [Code And Project Repositories](#code-and-project-repositories)
+    * [Datasets And Libraries](#datasets-and-libraries)
+* [Blogs, People, And Communities](#blogs-people-and-communities)
+    * [Blogs And Newsletters](#blogs-and-newsletters)
+    * [People](#people)
+    * [Q&A Communities](#qa-communities)
+* [Quantitative Finance And Trading](#quantitative-finance-and-trading)
+    * [Quant Books And Courses](#quant-books-and-courses)
+    * [Quant Research And Papers](#quant-research-and-papers)
+    * [Quant Blogs, Talks, And Interviews](#quant-blogs-talks-and-interviews)
+    * [Quant Code And Environments](#quant-code-and-environments)
 
-## Books
+## Start Here
+
+Use these collections when you want a broad learning path before diving into a specific topic.
+
+These links add broader tutorial tracks and self-study paths to the original resource list.
+They are selected from the themes covered by [Machine-Learning-Tutorials](https://github.com/ujjwalkarn/Machine-Learning-Tutorials), with descriptions rewritten and grouped for this repository.
+
+* [Machine Learning for Software Engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers) - A practical roadmap for programmers who want to move into machine learning.
+* [Dive into Machine Learning](https://github.com/hangtwenty/dive-into-machine-learning) - A hands-on path with notebooks, tools, and approachable explanations.
+* [AI/ML YouTube Courses](https://github.com/dair-ai/ML-YouTube-Courses) - A collection of video courses for learners who prefer lectures.
+* [Machine Learning University Courses](https://github.com/prakhar1989/awesome-courses#machine-learning) - A large index of university courses with public material.
+* [The Open Source Data Science Masters](http://datasciencemasters.org/) - A self-guided curriculum for statistics, data science, and machine learning.
+* [Machine Learning Concepts](https://en.wikipedia.org/wiki/List_of_machine_learning_concepts) - A useful glossary-style map of common topics.
+* [Grokking Machine Learning](https://www.manning.com/books/grokking-machine-learning) - A beginner-friendly book focused on intuition and examples.
+* [An Introduction to Statistical Learning](https://www.statlearning.com/) - A free book with practical coverage of regression, classification, resampling, and model selection.
+* [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) - A free online book for neural network foundations.
+* [OpenIntro Statistics](https://www.openintro.org/book/os/) - A free statistics textbook with accessible examples.
+
+## Books And Reference Guides
+
+The applied data science entries in this guide were selected from themes covered by [datascienceid/machine-learning-resources](https://github.com/datascienceid/machine-learning-resources), with descriptions rewritten for this repository.
+
+### Core Books
 
 The following list contains several books - whenever free online versions are available, this should be noted correspondingly.
 
@@ -54,13 +84,31 @@ The following list contains several books - whenever free online versions are av
 * [Probabilistic Graphical Models: Principles and Techniques](https://books.google.com/books?id=7dzpHCHzNQ4C) - Daphne Koller, Nir Friedman
 * [The Elements of Statistical Learning: Data Mining, Inference and Prediction](https://hastie.su.domains/ElemStatLearn/) - **free pdf** - Trevor Hastie, Robert Tibshirani, Jerome Friedman
 
-### Chapters
+### Book Chapters
 
 Some isolated chapters interesting for machine learning students:
 
 * [Some Notes on Applied Mathematics for Machine Learning](http://research.microsoft.com/en-us/um/people/cburges/tech_reports/tr-2004-56.pdf) - Christopher J. C. Burges, Advanced Lectures on Machine Learning, 2004
 
-## Courses
+### Math And Data Science Guides
+
+* [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) - Jake VanderPlas introduces the Python data science stack with notebooks and examples.
+* [Pengenalan Pembelajaran Mesin dan Deep Learning](https://wiragotama.github.io/ebook_machine_learning.html) - Indonesian-language ebook introducing machine learning and deep learning concepts.
+* [R Programming for Data Science](https://leanpub.com/rprogramming) - Roger Peng's book on R programming for data work.
+* [Mathematics for Machine Learning](https://mml-book.github.io/) - A book focused on the linear algebra, calculus, and probability used in ML.
+* [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/) - Christoph Molnar's guide to model interpretation methods.
+
+### Cheat Sheets
+
+Use these when you need compact formulas, model summaries, or quick reminders.
+
+* [Machine Learning Cheat Sheet](https://github.com/soulmachine/machine-learning-cheat-sheet) - A compact reference for core algorithms and concepts.
+* [ML Compiled](https://ml-compiled.readthedocs.io/en/latest/) - A searchable reference for machine learning topics.
+* [Probability Cheat Sheet](http://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf) - Formulas and definitions for probability.
+
+## Courses And Lectures
+
+### University Courses
 
 Nowadays, every major technical university offers courses on machine learning and related topics (data mining, computer vision, applied statistics, ...):
 
@@ -79,90 +127,29 @@ A list of single lectures/classes - slides or lecture notes - interesting for st
 
 * [Kernel Density Estimation](http://www.ssc.wisc.edu/~bhansen/718/NonParametrics1.pdf) - Non Parametric Econometrics, Bruce Hansen, University of Wisconsin Madison
 
-## PhD Theses
+### Applied Courses And Tutorials
+
+* [Applied Machine Learning in Python](https://www.coursera.org/learn/python-machine-learning) - University of Michigan course on practical supervised learning with Python.
+* [Machine Learning with Big Data](https://www.coursera.org/learn/big-data-machine-learning) - UC San Diego course connecting ML workflows with larger-scale data.
+* [Complete Guide to Topic Modeling](https://nlpforhackers.io/topic-modeling/) - Practical NLP tutorial for topic modeling.
+* [Naive Bayes From Scratch in Python](https://machinelearningmastery.com/naive-bayes-classifier-scratch-python/) - Step-by-step implementation of a Naive Bayes classifier.
+* [Twitter Sentiment Analysis with NLTK](https://pythonprogramming.net/twitter-sentiment-analysis-nltk-tutorial/) - Hands-on tutorial for sentiment analysis with Python and NLTK.
+
+## Research Papers And Theses
+
+### PhD Theses
 
 Some useful PhD theses from students around the world:
 
 * [Understanding Random Forests: From Theory to Practice](http://orbi.ulg.ac.be/bitstream/2268/170309/1/thesis.pdf) - Gilles Louppe, Université de Liège
 
-## Papers
-
-A selection of useful papers  - mostly reviews and tutorials.
-
-### Journal and Magazine Papers
+### Journal And Magazine Papers
 
 * [Learning Deep Architectures for AI](https://www.cs.princeton.edu/courses/archive/spring13/cos598C/Learning%20Deep%20Architectures%20for%20AI.pdf) - Yoshua Bengio, Foundations and Trends in Machine Learning, 2009
 * [A few useful things to know about machine learning](http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf) - Pedro Domingos, Communications of the ACM, 2012
 * [Decision Forests: A Unified Framework for Classification, Regression, Density Estimation, Manifold Learning and Semi-Supervised Learning](http://research.microsoft.com/pubs/158806/CriminisiForests_FoundTrends_2011.pdf) - Antonio Criminisi, Jamie Shotton, Ender Konukoglu, Foundations and Trends in Computer Graphics and Vision, 2012
 
-### Conference Papers
-
-## StackExchange
-
-Some useful StackExchange questions from several communities.
-
-### Cross Validated
-
-* [Cross-validation or bootstrapping to evaluate classification performance?](http://stats.stackexchange.com/questions/71184/cross-validation-or-bootstrapping-to-evaluate-classification-performance)
-* [Feature selection with random forests?](http://stats.stackexchange.com/questions/68692/feature-selection-with-random-forests)
-* [Measure of variable importance in random forests?](http://stats.stackexchange.com/questions/12605/measures-of-variable-importance-in-random-forests)
-* [Kernel Bandwidth: Scott's vs. Silverman's rules?](http://stats.stackexchange.com/questions/90656/kernel-bandwidth-scotts-vs-silvermans-rules)
-* [Silverman's rule to calculate the bandwidth in kernel density estimation?](http://stats.stackexchange.com/questions/6670/which-is-the-formula-from-silverman-to-calculate-the-bandwidth-in-a-kernel-densi?rq=1)
-
-### Stack Overflow
-
-* [C++: How to sample from a multivariate Gaussian?](http://stackoverflow.com/questions/6142576/sample-from-multivariate-normal-gaussian-distribution-in-c)
-
-## Software
-
-Machine learning software and libraries:
-
-* [Sherwood C++ and C# code library for decision forests](https://web.archive.org/web/20201026053806/https://www.microsoft.com/en-us/download/details.aspx?id=52340)
-* [Boykov-Kolmogorov algorithm for max-flow/min-cut](http://vision.csd.uwo.ca/code/)
-* [OpenCV](http://opencv.org/)
-* [Tiny CNN](https://github.com/nyanp/tiny-cnn)
-* [Online Random Forests](https://ymer.org/research/online-random-forests/)
-
-## Blogs
-
-Some research-oriented blogs related to machine learning. Note that these blogs are not necessarily updated anymore, however, may still contain interesting articles on machine learning.
-
-* [The Batch](https://www.deeplearning.ai/the-batch)
-
-Personal blogs:
-
-* [Brian Dolhansky's machine learning examples](https://github.com/bdol/bdol-ml)
-* [Eric Yuan's blog](http://eric-yuan.me/)
-* [Mathieu Blondel's homepage](https://mblondel.org/)
-* [Edwin Chen's homepage](https://www.edwinchen.ai/)
-
-## People
-
-Some professors, researchers and students working in machine learning:
-
-* [Blum, Avrim](https://home.ttic.edu/~avrim/)
-* [Criminisi, Antonio](http://research.microsoft.com/en-us/people/antcrim/)
-* [Sontag, David](https://people.csail.mit.edu/dsontag/)
-* [Pierre Geurts](http://www.montefiore.ulg.ac.be/~geurts/)
-    * [Gilles Louppe](http://www.montefiore.ulg.ac.be/~glouppe/)
-
-## Additional Learning Paths
-
-These links add broader tutorial tracks and self-study paths to the original resource list.
-They are selected from the themes covered by [Machine-Learning-Tutorials](https://github.com/ujjwalkarn/Machine-Learning-Tutorials), with descriptions rewritten and grouped for this repository.
-
-* [Machine Learning for Software Engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers) - A practical roadmap for programmers who want to move into machine learning.
-* [Dive into Machine Learning](https://github.com/hangtwenty/dive-into-machine-learning) - A hands-on path with notebooks, tools, and approachable explanations.
-* [AI/ML YouTube Courses](https://github.com/dair-ai/ML-YouTube-Courses) - A collection of video courses for learners who prefer lectures.
-* [Machine Learning University Courses](https://github.com/prakhar1989/awesome-courses#machine-learning) - A large index of university courses with public material.
-* [The Open Source Data Science Masters](http://datasciencemasters.org/) - A self-guided curriculum for statistics, data science, and machine learning.
-* [Machine Learning Concepts](https://en.wikipedia.org/wiki/List_of_machine_learning_concepts) - A useful glossary-style map of common topics.
-* [Grokking Machine Learning](https://www.manning.com/books/grokking-machine-learning) - A beginner-friendly book focused on intuition and examples.
-* [An Introduction to Statistical Learning](https://www.statlearning.com/) - A free book with practical coverage of regression, classification, resampling, and model selection.
-* [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) - A free online book for neural network foundations.
-* [OpenIntro Statistics](https://www.openintro.org/book/os/) - A free statistics textbook with accessible examples.
-
-## Additional Topic Tutorials
+## Topic Tutorials
 
 Use this section when you want a focused entry point for one machine learning topic.
 
@@ -307,15 +294,15 @@ Use this section when you want a focused entry point for one machine learning to
 * [The Interplay of Optimization and Machine Learning Research](http://jmlr.org/papers/volume7/MLOPT-intro06a/MLOPT-intro06a.pdf) - A JMLR overview of how optimization and machine learning influence each other.
 * [Hyperopt Getting Started Guide](https://hyperopt.github.io/hyperopt/getting-started/minimizing_functions/) - A practical look at hyperparameter search.
 
-## Additional Cheat Sheets
+### Feature Engineering And Information Theory
 
-Use these when you need compact formulas, model summaries, or quick reminders.
+These English-language links were selected from the feature-engineering and interview-prep themes in [wangyuGithub01/Machine_Learning_Resources](https://github.com/wangyuGithub01/Machine_Learning_Resources).
+Links from that source that point to non-English destination content were left out.
 
-* [Machine Learning Cheat Sheet](https://github.com/soulmachine/machine-learning-cheat-sheet) - A compact reference for core algorithms and concepts.
-* [ML Compiled](https://ml-compiled.readthedocs.io/en/latest/) - A searchable reference for machine learning topics.
-* [Probability Cheat Sheet](http://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf) - Formulas and definitions for probability.
+* [Introduction to Feature Selection](https://www.kaggle.com/willkoehrsen/introduction-to-feature-selection) - Kaggle notebook showing practical feature selection methods for tabular ML workflows.
+* [Visual Information Theory](https://colah.github.io/posts/2015-09-Visual-Information/) - Visual explanation of entropy, cross entropy, KL divergence, and related information-theory ideas.
 
-## Additional Practice And Interview Prep
+## Practice And Interview Prep
 
 These links help with applying machine learning concepts in projects, competitions, and interviews.
 
@@ -326,94 +313,17 @@ These links help with applying machine learning concepts in projects, competitio
 * [How to Rank in the Top 10 Percent in Your First Kaggle Competition](https://dnc1994.github.io/2016/05/rank-10-percent-in-first-kaggle-competition-en/) - Practical advice for early competition work.
 * [Click-Through Rate Prediction in Online Advertising](https://arxiv.org/abs/2202.10462) - A survey of online advertising click-through rate prediction models.
 
-## Additional Blogs And Software
+## Tools, Code, Datasets, And Libraries
 
-These additions expand the existing blog and software sections without changing the original entries.
+### Software
 
-* [Data School](http://www.dataschool.io/) - Beginner-friendly explanations for machine learning and data science.
-* [MLWave](https://github.com/MLWave) - Applied machine learning competition material and code.
-* [Andrej Karpathy](http://karpathy.github.io/) - Deep learning and neural network essays.
-* [Colah's Blog](http://colah.github.io/) - Visual explanations of neural network concepts.
-* [Simply Statistics](http://simplystatistics.org/) - Statistical thinking from working researchers.
-* [Variance Explained](http://varianceexplained.org/) - Data science and statistics explanations from David Robinson.
-* [Tim Dettmers](http://timdettmers.com/) - Practical deep learning performance and hardware notes.
-* [Jay Alammar](http://jalammar.github.io/) - Visual explanations of NLP and neural network models.
-* [Ethen's Machine Learning Notes](https://github.com/ethen8181/machine-learning) - Python notebooks and implementation notes.
+Machine learning software and libraries:
 
-## Additional Quantitative Finance And Trading
-
-These resources extend the list with machine learning material for markets, trading systems, portfolio research, and financial time series.
-They are selected from the themes covered by [Awesome-Quant-Machine-Learning-Trading](https://github.com/grananqvist/Awesome-Quant-Machine-Learning-Trading), with descriptions rewritten for this repository.
-
-### Books And Courses
-
-* [Advances in Financial Machine Learning](https://www.amazon.com/Advances-Financial-Machine-Learning-Marcos-ebook/dp/B079KLDW21/) - Marcos López de Prado's book on labeling, sampling, validation, and backtesting for financial ML.
-* [Machine Learning for Finance](https://www.amazon.com/Machine-Learning-Finance-algorithms-financial-ebook/dp/B07BDK6LF9/) - Jannes Klaas introduces market data workflows and deep learning examples for finance.
-* [Hands-On Machine Learning for Algorithmic Trading](https://www.amazon.com/Hands-Machine-Learning-Algorithmic-Trading-ebook/dp/B07JLFH7C5/) - Stefan Jansen covers strategy research with the Python data stack.
-* [Advanced Algorithmic Trading](https://www.quantstart.com/advanced-algorithmic-trading-ebook/) - Michael Halls-Moore's ebook on strategy development, backtesting, and trading infrastructure.
-* [Machine Learning for Trading](https://www.udacity.com/course/machine-learning-for-trading--ud501) - A Georgia Tech and Udacity course on applying ML to market data.
-* [AI for Trading](https://www.udacity.com/course/ai-for-trading--nd880) - A Udacity nanodegree focused on quantitative trading workflows.
-* [Guided Tour of Machine Learning in Finance](https://www.coursera.org/learn/guided-tour-machine-learning-finance) - NYU course material that introduces finance-specific ML problems.
-* [Fundamentals of Machine Learning in Finance](https://www.coursera.org/learn/fundamentals-machine-learning-in-finance) - Coursera course covering finance data, model design, and evaluation.
-* [Reinforcement Learning in Finance](https://www.coursera.org/learn/reinforcement-learning-in-finance) - Coursera course on reinforcement learning concepts for financial use cases.
-
-### Research And Papers
-
-* [FinRL: A Deep Reinforcement Learning Library for Automated Stock Trading](https://arxiv.org/abs/2011.09607) - A paper and library overview for financial reinforcement learning.
-* [Deep Learning for Finance: Deep Portfolios](https://ideas.repec.org/a/wly/apsmbi/v33y2017i1p3-12.html) - A paper on using deep learning for portfolio construction.
-* [Practical Deep Reinforcement Learning Approach for Stock Trading](https://arxiv.org/abs/1811.07522) - An arXiv paper on reinforcement learning for trading strategies.
-* [Universal Features of Price Formation in Financial Markets](https://arxiv.org/abs/1803.06917) - Deep learning perspective on price formation.
-* [A Deep Reinforcement Learning Framework for Financial Portfolio Management](https://arxiv.org/abs/1706.10059) - Portfolio allocation with reinforcement learning.
-* [Deep Learning for Limit Order Books](https://arxiv.org/abs/1601.01987) - Justin Sirignano's work on high-frequency limit order book modeling.
-* [Deep Learning for Portfolio Management](https://arxiv.org/abs/2012.13773) - A reinforcement learning view of portfolio management.
-* [Improving Stock Movement Prediction with Adversarial Training](https://arxiv.org/abs/1810.09936) - Adversarial training for stock movement prediction.
-* [Deep Learning with Long Short-Term Memory Networks for Financial Market Predictions](https://www.econstor.eu/bitstream/10419/157808/1/886576210.pdf) - LSTM modeling for financial markets.
-* [A Deep Learning Framework for Financial Time Series Using Stacked Autoencoders and LSTM](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0180944) - Deep learning architecture for financial time series.
-* [Natural Language Based Financial Forecasting](http://sentic.net/natural-language-based-financial-forecasting.pdf) - Survey of NLP methods for financial prediction.
-* [Deep Learning for Event-Driven Stock Prediction](https://www.ijcai.org/Proceedings/15/Papers/329.pdf) - Event-driven stock prediction with neural models.
-
-### Blogs, Talks, And Interviews
-
-* [QuantStart Articles](https://www.quantstart.com/articles/) - Practical articles on algorithmic trading, backtesting, and quantitative research.
-* [Robot Wealth Blog](https://robotwealth.com/blog/) - Applied posts on trading research, statistics, and market data workflows.
-* [Hudson and Thames Research](https://hudsonthames.org/research/) - Financial ML articles and research notes inspired by López de Prado's work.
-* [QuantInsti YouTube](https://www.youtube.com/user/quantinsti) - Webinars and explainers on algorithmic trading and quantitative finance.
-* [Machine Learning for Forex and Stock Analysis](https://www.youtube.com/playlist?list=PLQVvvaa0QuDe6ZBtkCNWNUbdaBo2vA4RO) - Sentdex video series on applying Python ML to market data.
-* [Python Programming for Finance](https://www.youtube.com/playlist?list=PLQVvvaa0QuDcOdF96TBtRtuQksErCEBYZ) - Sentdex series covering finance data workflows in Python.
-
-### Code And Environments
-
-* [TradingGym](https://github.com/Yvictor/TradingGym) - A reinforcement learning environment for trading experiments.
-* [BTGym](https://github.com/Kismuz/btgym) - OpenAI Gym style environment for backtesting and reinforcement learning research.
-* [FinRL](https://github.com/AI4Finance-Foundation/FinRL) - A maintained framework for financial reinforcement learning.
-* [mlfinlab](https://github.com/hudson-and-thames/mlfinlab) - Python implementations of financial machine learning research methods.
-* [Advances in Financial Machine Learning Exercises](https://github.com/BlackArbsCEO/Adv_Fin_ML_Exercises) - Exercises and examples based on López de Prado's book.
-* [MachineLearningStocks](https://github.com/robertmartin8/MachineLearningStocks) - Python and scikit-learn examples for stock prediction.
-* [PGPortfolio](https://github.com/ZhengyaoJiang/PGPortfolio) - Code for a deep reinforcement learning portfolio management paper.
-* [QLearning Trading](https://github.com/ucaiado/QLearning_Trading) - Reinforcement learning experiments for trading.
-* [Deep Trading](https://github.com/Rachnog/Deep-Trading) - Deep learning experiments for algorithmic trading.
-* [Stock Market Reinforcement Learning](https://github.com/kh-kim/stock_market_reinforcement_learning) - OpenAI Gym trading environment with deep Q-learning examples.
-
-## Additional Data Science Practice Resources
-
-These resources add more applied data science, sample-code, dataset, and Indonesian-language learning material.
-They are selected from the themes covered by [datascienceid/machine-learning-resources](https://github.com/datascienceid/machine-learning-resources), with descriptions rewritten for this repository.
-
-### Books And Concept Guides
-
-* [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) - Jake VanderPlas introduces the Python data science stack with notebooks and examples.
-* [Pengenalan Pembelajaran Mesin dan Deep Learning](https://wiragotama.github.io/ebook_machine_learning.html) - Indonesian-language ebook introducing machine learning and deep learning concepts.
-* [R Programming for Data Science](https://leanpub.com/rprogramming) - Roger Peng's book on R programming for data work.
-* [Mathematics for Machine Learning](https://mml-book.github.io/) - A book focused on the linear algebra, calculus, and probability used in ML.
-* [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/) - Christoph Molnar's guide to model interpretation methods.
-
-### Courses And Tutorials
-
-* [Applied Machine Learning in Python](https://www.coursera.org/learn/python-machine-learning) - University of Michigan course on practical supervised learning with Python.
-* [Machine Learning with Big Data](https://www.coursera.org/learn/big-data-machine-learning) - UC San Diego course connecting ML workflows with larger-scale data.
-* [Complete Guide to Topic Modeling](https://nlpforhackers.io/topic-modeling/) - Practical NLP tutorial for topic modeling.
-* [Naive Bayes From Scratch in Python](https://machinelearningmastery.com/naive-bayes-classifier-scratch-python/) - Step-by-step implementation of a Naive Bayes classifier.
-* [Twitter Sentiment Analysis with NLTK](https://pythonprogramming.net/twitter-sentiment-analysis-nltk-tutorial/) - Hands-on tutorial for sentiment analysis with Python and NLTK.
+* [Sherwood C++ and C# code library for decision forests](https://web.archive.org/web/20201026053806/https://www.microsoft.com/en-us/download/details.aspx?id=52340)
+* [Boykov-Kolmogorov algorithm for max-flow/min-cut](http://vision.csd.uwo.ca/code/)
+* [OpenCV](http://opencv.org/)
+* [Tiny CNN](https://github.com/nyanp/tiny-cnn)
+* [Online Random Forests](https://ymer.org/research/online-random-forests/)
 
 ### Code And Project Repositories
 
@@ -435,10 +345,109 @@ They are selected from the themes covered by [datascienceid/machine-learning-res
 * [XGBoost](https://github.com/dmlc/xgboost) - Gradient boosting library widely used for tabular data.
 * [spaCy](https://github.com/explosion/spaCy) - Industrial-strength NLP library for Python.
 
-## Additional English Interview Prep Resources
+## Blogs, People, And Communities
 
-These resources extend the feature-engineering, model-explanation, and interview-prep themes from Wangyu's machine learning list.
-Only links that point to English-language destination content are included here.
+### Blogs And Newsletters
 
-* [Introduction to Feature Selection](https://www.kaggle.com/willkoehrsen/introduction-to-feature-selection) - Kaggle notebook showing practical feature selection methods for tabular ML workflows.
-* [Visual Information Theory](https://colah.github.io/posts/2015-09-Visual-Information/) - Visual explanation of entropy, cross entropy, KL divergence, and related information-theory ideas.
+Some research-oriented blogs related to machine learning. Note that these blogs are not necessarily updated anymore, however, may still contain interesting articles on machine learning.
+
+* [The Batch](https://www.deeplearning.ai/the-batch)
+
+Personal blogs:
+
+* [Brian Dolhansky's machine learning examples](https://github.com/bdol/bdol-ml)
+* [Eric Yuan's blog](http://eric-yuan.me/)
+* [Mathieu Blondel's homepage](https://mblondel.org/)
+* [Edwin Chen's homepage](https://www.edwinchen.ai/)
+
+These additions expand the existing blog and software sections without changing the original entries.
+
+* [Data School](http://www.dataschool.io/) - Beginner-friendly explanations for machine learning and data science.
+* [MLWave](https://github.com/MLWave) - Applied machine learning competition material and code.
+* [Andrej Karpathy](http://karpathy.github.io/) - Deep learning and neural network essays.
+* [Colah's Blog](http://colah.github.io/) - Visual explanations of neural network concepts.
+* [Simply Statistics](http://simplystatistics.org/) - Statistical thinking from working researchers.
+* [Variance Explained](http://varianceexplained.org/) - Data science and statistics explanations from David Robinson.
+* [Tim Dettmers](http://timdettmers.com/) - Practical deep learning performance and hardware notes.
+* [Jay Alammar](http://jalammar.github.io/) - Visual explanations of NLP and neural network models.
+* [Ethen's Machine Learning Notes](https://github.com/ethen8181/machine-learning) - Python notebooks and implementation notes.
+
+### People
+
+Some professors, researchers and students working in machine learning:
+
+* [Blum, Avrim](https://home.ttic.edu/~avrim/)
+* [Criminisi, Antonio](http://research.microsoft.com/en-us/people/antcrim/)
+* [Sontag, David](https://people.csail.mit.edu/dsontag/)
+* [Pierre Geurts](http://www.montefiore.ulg.ac.be/~geurts/)
+    * [Gilles Louppe](http://www.montefiore.ulg.ac.be/~glouppe/)
+
+### Q&A Communities
+
+Some useful StackExchange questions from several communities.
+
+#### Cross Validated
+
+* [Cross-validation or bootstrapping to evaluate classification performance?](http://stats.stackexchange.com/questions/71184/cross-validation-or-bootstrapping-to-evaluate-classification-performance)
+* [Feature selection with random forests?](http://stats.stackexchange.com/questions/68692/feature-selection-with-random-forests)
+* [Measure of variable importance in random forests?](http://stats.stackexchange.com/questions/12605/measures-of-variable-importance-in-random-forests)
+* [Kernel Bandwidth: Scott's vs. Silverman's rules?](http://stats.stackexchange.com/questions/90656/kernel-bandwidth-scotts-vs-silvermans-rules)
+* [Silverman's rule to calculate the bandwidth in kernel density estimation?](http://stats.stackexchange.com/questions/6670/which-is-the-formula-from-silverman-to-calculate-the-bandwidth-in-a-kernel-densi?rq=1)
+
+#### Stack Overflow
+
+* [C++: How to sample from a multivariate Gaussian?](http://stackoverflow.com/questions/6142576/sample-from-multivariate-normal-gaussian-distribution-in-c)
+
+## Quantitative Finance And Trading
+
+These resources extend the list with machine learning material for markets, trading systems, portfolio research, and financial time series.
+They are selected from the themes covered by [Awesome-Quant-Machine-Learning-Trading](https://github.com/grananqvist/Awesome-Quant-Machine-Learning-Trading), with descriptions rewritten for this repository.
+
+### Quant Books And Courses
+
+* [Advances in Financial Machine Learning](https://www.amazon.com/Advances-Financial-Machine-Learning-Marcos-ebook/dp/B079KLDW21/) - Marcos López de Prado's book on labeling, sampling, validation, and backtesting for financial ML.
+* [Machine Learning for Finance](https://www.amazon.com/Machine-Learning-Finance-algorithms-financial-ebook/dp/B07BDK6LF9/) - Jannes Klaas introduces market data workflows and deep learning examples for finance.
+* [Hands-On Machine Learning for Algorithmic Trading](https://www.amazon.com/Hands-Machine-Learning-Algorithmic-Trading-ebook/dp/B07JLFH7C5/) - Stefan Jansen covers strategy research with the Python data stack.
+* [Advanced Algorithmic Trading](https://www.quantstart.com/advanced-algorithmic-trading-ebook/) - Michael Halls-Moore's ebook on strategy development, backtesting, and trading infrastructure.
+* [Machine Learning for Trading](https://www.udacity.com/course/machine-learning-for-trading--ud501) - A Georgia Tech and Udacity course on applying ML to market data.
+* [AI for Trading](https://www.udacity.com/course/ai-for-trading--nd880) - A Udacity nanodegree focused on quantitative trading workflows.
+* [Guided Tour of Machine Learning in Finance](https://www.coursera.org/learn/guided-tour-machine-learning-finance) - NYU course material that introduces finance-specific ML problems.
+* [Fundamentals of Machine Learning in Finance](https://www.coursera.org/learn/fundamentals-machine-learning-in-finance) - Coursera course covering finance data, model design, and evaluation.
+* [Reinforcement Learning in Finance](https://www.coursera.org/learn/reinforcement-learning-in-finance) - Coursera course on reinforcement learning concepts for financial use cases.
+
+### Quant Research And Papers
+
+* [FinRL: A Deep Reinforcement Learning Library for Automated Stock Trading](https://arxiv.org/abs/2011.09607) - A paper and library overview for financial reinforcement learning.
+* [Deep Learning for Finance: Deep Portfolios](https://ideas.repec.org/a/wly/apsmbi/v33y2017i1p3-12.html) - A paper on using deep learning for portfolio construction.
+* [Practical Deep Reinforcement Learning Approach for Stock Trading](https://arxiv.org/abs/1811.07522) - An arXiv paper on reinforcement learning for trading strategies.
+* [Universal Features of Price Formation in Financial Markets](https://arxiv.org/abs/1803.06917) - Deep learning perspective on price formation.
+* [A Deep Reinforcement Learning Framework for Financial Portfolio Management](https://arxiv.org/abs/1706.10059) - Portfolio allocation with reinforcement learning.
+* [Deep Learning for Limit Order Books](https://arxiv.org/abs/1601.01987) - Justin Sirignano's work on high-frequency limit order book modeling.
+* [Deep Learning for Portfolio Management](https://arxiv.org/abs/2012.13773) - A reinforcement learning view of portfolio management.
+* [Improving Stock Movement Prediction with Adversarial Training](https://arxiv.org/abs/1810.09936) - Adversarial training for stock movement prediction.
+* [Deep Learning with Long Short-Term Memory Networks for Financial Market Predictions](https://www.econstor.eu/bitstream/10419/157808/1/886576210.pdf) - LSTM modeling for financial markets.
+* [A Deep Learning Framework for Financial Time Series Using Stacked Autoencoders and LSTM](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0180944) - Deep learning architecture for financial time series.
+* [Natural Language Based Financial Forecasting](http://sentic.net/natural-language-based-financial-forecasting.pdf) - Survey of NLP methods for financial prediction.
+* [Deep Learning for Event-Driven Stock Prediction](https://www.ijcai.org/Proceedings/15/Papers/329.pdf) - Event-driven stock prediction with neural models.
+
+### Quant Blogs, Talks, And Interviews
+
+* [QuantStart Articles](https://www.quantstart.com/articles/) - Practical articles on algorithmic trading, backtesting, and quantitative research.
+* [Robot Wealth Blog](https://robotwealth.com/blog/) - Applied posts on trading research, statistics, and market data workflows.
+* [Hudson and Thames Research](https://hudsonthames.org/research/) - Financial ML articles and research notes inspired by López de Prado's work.
+* [QuantInsti YouTube](https://www.youtube.com/user/quantinsti) - Webinars and explainers on algorithmic trading and quantitative finance.
+* [Machine Learning for Forex and Stock Analysis](https://www.youtube.com/playlist?list=PLQVvvaa0QuDe6ZBtkCNWNUbdaBo2vA4RO) - Sentdex video series on applying Python ML to market data.
+* [Python Programming for Finance](https://www.youtube.com/playlist?list=PLQVvvaa0QuDcOdF96TBtRtuQksErCEBYZ) - Sentdex series covering finance data workflows in Python.
+
+### Quant Code And Environments
+
+* [TradingGym](https://github.com/Yvictor/TradingGym) - A reinforcement learning environment for trading experiments.
+* [BTGym](https://github.com/Kismuz/btgym) - OpenAI Gym style environment for backtesting and reinforcement learning research.
+* [FinRL](https://github.com/AI4Finance-Foundation/FinRL) - A maintained framework for financial reinforcement learning.
+* [mlfinlab](https://github.com/hudson-and-thames/mlfinlab) - Python implementations of financial machine learning research methods.
+* [Advances in Financial Machine Learning Exercises](https://github.com/BlackArbsCEO/Adv_Fin_ML_Exercises) - Exercises and examples based on López de Prado's book.
+* [MachineLearningStocks](https://github.com/robertmartin8/MachineLearningStocks) - Python and scikit-learn examples for stock prediction.
+* [PGPortfolio](https://github.com/ZhengyaoJiang/PGPortfolio) - Code for a deep reinforcement learning portfolio management paper.
+* [QLearning Trading](https://github.com/ucaiado/QLearning_Trading) - Reinforcement learning experiments for trading.
+* [Deep Trading](https://github.com/Rachnog/Deep-Trading) - Deep learning experiments for algorithmic trading.
+* [Stock Market Reinforcement Learning](https://github.com/kh-kim/stock_market_reinforcement_learning) - OpenAI Gym trading environment with deep Q-learning examples.
