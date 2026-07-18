@@ -18,6 +18,28 @@ A collection of machine learning resources - books, courses, papers, software...
 * [Software](#software) 
 * [Blogs](#blogs)
 * [People](#people)
+* [Additional Learning Paths](#additional-learning-paths)
+* [Additional Topic Tutorials](#additional-topic-tutorials)
+    * [Foundations](#foundations)
+    * [Statistics](#statistics)
+    * [Artificial Intelligence](#artificial-intelligence)
+    * [Genetic Algorithms](#genetic-algorithms)
+    * [Classification](#classification)
+    * [Regression](#regression)
+    * [Model Validation](#model-validation)
+    * [Deep Learning](#deep-learning)
+    * [Natural Language Processing](#natural-language-processing)
+    * [Computer Vision](#computer-vision)
+    * [Support Vector Machines](#support-vector-machines)
+    * [Reinforcement Learning](#reinforcement-learning)
+    * [Tree-Based Models](#tree-based-models)
+    * [Ensembles And Boosting](#ensembles-and-boosting)
+    * [Bayesian Machine Learning](#bayesian-machine-learning)
+    * [Semi-Supervised Learning](#semi-supervised-learning)
+    * [Optimization](#optimization)
+* [Additional Cheat Sheets](#additional-cheat-sheets)
+* [Additional Practice And Interview Prep](#additional-practice-and-interview-prep)
+* [Additional Blogs And Software](#additional-blogs-and-software)
 
 ## Books 
 
@@ -120,3 +142,197 @@ Some professors, researchers and students working in machine learning:
 * [Sontag, David](http://cs.nyu.edu/~dsontag/)
 * [Pierre Geurts](http://www.montefiore.ulg.ac.be/~geurts/)
     * [Gilles Louppe](http://www.montefiore.ulg.ac.be/~glouppe/)
+
+## Additional Learning Paths
+
+These links add broader tutorial tracks and self-study paths to the original resource list.
+They are selected from the themes covered by [Machine-Learning-Tutorials](https://github.com/ujjwalkarn/Machine-Learning-Tutorials), with descriptions rewritten and grouped for this repository.
+
+* [Machine Learning for Software Engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers) - A practical roadmap for programmers who want to move into machine learning.
+* [Dive into Machine Learning](https://github.com/hangtwenty/dive-into-machine-learning) - A hands-on path with notebooks, tools, and approachable explanations.
+* [AI/ML YouTube Courses](https://github.com/dair-ai/ML-YouTube-Courses) - A collection of video courses for learners who prefer lectures.
+* [Machine Learning University Courses](https://github.com/prakhar1989/awesome-courses#machine-learning) - A large index of university courses with public material.
+* [The Open Source Data Science Masters](http://datasciencemasters.org/) - A self-guided curriculum for statistics, data science, and machine learning.
+* [Machine Learning Concepts](https://en.wikipedia.org/wiki/List_of_machine_learning_concepts) - A useful glossary-style map of common topics.
+* [Grokking Machine Learning](https://www.manning.com/books/grokking-machine-learning) - A beginner-friendly book focused on intuition and examples.
+* [An Introduction to Statistical Learning](https://www.statlearning.com/) - A free book with practical coverage of regression, classification, resampling, and model selection.
+* [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) - A free online book for neural network foundations.
+* [OpenIntro Statistics](https://www.openintro.org/book/os/) - A free statistics textbook with accessible examples.
+
+## Additional Topic Tutorials
+
+Use this section when you want a focused entry point for one machine learning topic.
+
+### Foundations
+
+* [Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning) - A classic introduction to supervised learning, unsupervised learning, and practical model building.
+* [Comparison of Supervised Learning Algorithms](http://www.dataschool.io/comparing-supervised-learning-algorithms/) - A plain-language comparison of common supervised models.
+* [Learning Data Science Fundamentals](http://www.dataschool.io/learning-data-science-fundamentals/) - A practical guide to the surrounding skills used in data science.
+* [Machine Learning FAQs on Cross Validated](http://stats.stackexchange.com/questions/tagged/machine-learning) - Community explanations for recurring machine learning questions.
+* [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning) - A broad collection of libraries, frameworks, and learning material.
+* [Awesome Data Science](https://github.com/academic/awesome-datascience) - A broader data science index that includes machine learning resources.
+
+### Statistics
+
+* [Online Statistics Education](http://onlinestatbook.com/2/index.html) - Interactive statistics lessons and examples.
+* [Stat Trek](http://stattrek.com/) - Short tutorials on statistics, probability, and sampling.
+* [Statistics for Hackers](https://speakerdeck.com/jakevdp/statistics-for-hackers) - Slides that explain statistical thinking for programmers.
+* [Sampling Distribution](http://stattrek.com/sampling/sampling-distribution.aspx) - A focused explanation of sampling distributions.
+* [QQ Plots](http://onlinestatbook.com/2/advanced_graphs/q-q_plots.html) - A visual guide to checking distributional assumptions.
+
+### Artificial Intelligence
+
+* [Awesome Artificial Intelligence](https://github.com/owainlewis/awesome-artificial-intelligence) - A wide collection of AI learning resources.
+* [UC Berkeley CS188](http://ai.berkeley.edu/home.html) - Course material for search, planning, games, probabilistic inference, and reinforcement learning.
+* [UC Berkeley CS188 Lecture Videos](http://ai.berkeley.edu/lecture_videos.html) - Video lectures matching the Berkeley AI course.
+* [MIT 6.034 Artificial Intelligence](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/) - MIT OpenCourseWare material for introductory AI.
+* [MIT 6.034 Lecture Playlist](https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi) - Video lectures for the MIT AI course.
+* [Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271) - Udacity's AI course from Peter Norvig and Sebastian Thrun.
+
+### Genetic Algorithms
+
+* [Genetic Algorithm](https://en.wikipedia.org/wiki/Genetic_algorithm) - A concise overview of evolutionary search.
+* [Genetic Programming](https://en.wikipedia.org/wiki/Genetic_programming) - Background on evolving program structures.
+* [gplearn](https://github.com/trevorstephens/gplearn) - A Python library for genetic programming with a scikit-learn-style interface.
+* [Genetic Algorithms vs Neural Networks](http://stackoverflow.com/questions/1402370/when-to-use-genetic-algorithms-vs-when-to-use-neural-networks) - Community discussion on when evolutionary methods are useful.
+
+### Classification
+
+* [When to Choose Which Classifier](http://stackoverflow.com/questions/2595176/when-to-choose-which-machine-learning-classifier) - Practical guidance for selecting a classification model.
+* [ROC Curves and AUC Explained](http://www.dataschool.io/roc-curves-and-auc-explained/) - An accessible explanation of ranking metrics.
+* [An Introduction to ROC Analysis](https://ccrma.stanford.edu/workshops/mir2009/references/ROCintro.pdf) - A deeper reference on ROC curves.
+* [Confusion Matrix Terminology](http://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/) - A compact guide to accuracy, precision, recall, specificity, and related metrics.
+* [Does Balancing Classes Improve Classifier Performance?](http://www.win-vector.com/blog/2015/02/does-balancing-classes-improve-classifier-performance/) - A practical discussion of imbalanced classes.
+
+### Regression
+
+* [Linear Regression](https://en.wikipedia.org/wiki/Linear_regression) - A compact overview of the standard linear model.
+* [Residual Analysis](http://people.duke.edu/~rnau/testing.htm) - Diagnostics for checking linear regression assumptions.
+* [Elastic Net Regularization](https://en.wikipedia.org/wiki/Elastic_net_regularization) - Background on combining L1 and L2 penalties.
+* [Logistic Regression](https://en.wikipedia.org/wiki/Logistic_regression) - A reference for the standard binary classification model.
+* [Guide to Logistic Regression](http://www.dataschool.io/guide-to-logistic-regression/) - A practical walkthrough for interpreting logistic regression.
+* [Choosing Classification Thresholds](http://stats.stackexchange.com/questions/25389/obtaining-predicted-values-y-1-or-0-from-a-logistic-regression-model-fit) - Discussion of converting probabilities into labels.
+* [Logit vs Probit Models](http://stats.stackexchange.com/questions/20523/difference-between-logit-and-probit-models#30909) - A comparison of two common binary response models.
+
+### Model Validation
+
+* [Resampling](https://en.wikipedia.org/wiki/Resampling_(statistics)) - A starting point for repeated-sample evaluation methods.
+* [Cross-Validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics)) - Background on estimating out-of-sample performance.
+* [Bootstrapping](https://en.wikipedia.org/wiki/Bootstrapping_(statistics)) - Background on sampling with replacement for uncertainty estimation.
+* [Train, Validation, and Test Sets](http://stackoverflow.com/questions/2976452/whats-is-the-difference-between-train-validation-and-test-set-in-neural-networ) - A common split-strategy question explained through examples.
+
+### Deep Learning
+
+* [fast.ai Practical Deep Learning for Coders](http://course.fast.ai/) - A project-first course for modern neural networks.
+* [Awesome Deep Learning](https://github.com/ChristosChristofidis/awesome-deep-learning) - A large collection of deep learning tutorials, papers, and tools.
+* [Stanford Deep Learning Tutorial](http://ufldl.stanford.edu/tutorial/) - Classic tutorials on neural network fundamentals.
+* [Core Concepts of Deep Learning](https://developer.nvidia.com/blog/deep-learning-nutshell-core-concepts/) - A concise conceptual introduction from NVIDIA.
+* [Hacker's Guide to Neural Networks](http://karpathy.github.io/neuralnets/) - Andrej Karpathy's intuitive walkthrough of neural networks.
+* [Deep Learning Reading List](http://deeplearning.net/reading-list/) - A reading-oriented path through deep learning papers and topics.
+* [Deep Learning Tutorials](http://deeplearning.net/tutorial/index.html) - Hands-on tutorial material for neural networks.
+* [Introduction to Deep Learning Using Python](https://github.com/rouseguy/intro2deeplearning) - Code-oriented introductory notebooks.
+* [Recursive Neural Network](https://en.wikipedia.org/wiki/Recursive_neural_network) - Background on tree-structured neural models.
+
+### Natural Language Processing
+
+* [Speech and Natural Language Processing Resources](https://github.com/edobashira/speech-language-processing) - A curated NLP and speech collection.
+* [The Stanford NLP Group](https://nlp.stanford.edu/) - Research, software, and course links from Stanford NLP.
+* [CS224d Reports](http://cs224d.stanford.edu/reports.html) - Student projects in deep learning for NLP.
+* [tf-idf Explained](http://michaelerasm.us/post/tf-idf-in-10-minutes/) - A quick explanation of term frequency and inverse document frequency.
+* [Bag-of-Words Model](https://en.wikipedia.org/wiki/Bag-of-words_model) - A baseline text representation to understand before embeddings.
+* [A Closer Look at Skip-Gram Modeling](http://homepages.inf.ed.ac.uk/ballison/pdf/lrec_skipgrams.pdf) - A more detailed look at word embedding training.
+* [Word2Vec NLP Tutorial](https://www.kaggle.com/c/word2vec-nlp-tutorial) - Kaggle's practical tutorial for text classification and word vectors.
+
+### Computer Vision
+
+* [Awesome Computer Vision](https://github.com/jbhuang0604/awesome-computer-vision) - A wide collection of computer vision resources.
+* [Awesome Deep Vision](https://github.com/kjw0612/awesome-deep-vision) - Deep-learning-focused computer vision links.
+
+### Support Vector Machines
+
+* [Help Me Understand Support Vector Machines](http://stats.stackexchange.com/questions/3947/help-me-understand-support-vector-machines) - A community explanation of margins and support vectors.
+* [SVMs in Plain Language](https://www.quora.com/What-does-support-vector-machine-SVM-mean-in-laymans-terms) - Intuition-first explanations of the model.
+* [A Tutorial on Support Vector Machines](http://alex.smola.org/papers/2003/SmoSch03b.pdf) - A more formal introduction.
+* [Practical Guide to Support Vector Classification](http://www.csie.ntu.edu.tw/~cjlin/papers/guide/guide.pdf) - Applied guidance from the LIBSVM authors.
+* [Variable Importance from SVMs](http://stats.stackexchange.com/questions/2179/variable-importance-from-svm) - Discussion of interpretability for SVM models.
+
+### Reinforcement Learning
+
+* [Awesome Reinforcement Learning](https://github.com/aikorea/awesome-rl) - A curated list for reinforcement learning papers, courses, and libraries.
+* [Reinforcement Learning Part 1](http://outlace.com/Reinforcement-Learning-Part-1/) - Introductory material on reinforcement learning concepts.
+* [Reinforcement Learning Part 2](http://outlace.com/Reinforcement-Learning-Part-2/) - Follow-up material with more reinforcement learning examples.
+
+### Tree-Based Models
+
+* [Decision Tree Learning](https://en.wikipedia.org/wiki/Decision_tree_learning) - A short overview of tree induction.
+* [Decision Tree Questions on Cross Validated](http://stats.stackexchange.com/questions/tagged/cart) - Community explanations for CART and related models.
+* [Entropy and Information Gain](http://stackoverflow.com/questions/1859554/what-is-entropy-and-information-gain) - A useful explanation of split criteria.
+* [Pruning Decision Trees](https://en.wikipedia.org/wiki/Pruning_(decision_trees)) - Background on controlling overfitting in trees.
+* [Awesome Random Forest](https://github.com/kjw0612/awesome-random-forest) - A focused random forest resource list.
+* [Random Forest Questions on Cross Validated](http://stats.stackexchange.com/questions/tagged/random-forest) - Common questions and answers about random forest behavior.
+
+### Ensembles And Boosting
+
+* [Ensemble Learning](https://en.wikipedia.org/wiki/Ensemble_learning) - A starting point for bagging, boosting, and stacking.
+* [Bagging, Boosting, and Stacking](http://stats.stackexchange.com/questions/18891/bagging-boosting-and-stacking-in-machine-learning) - Community comparison of ensemble strategies.
+* [Introduction to Boosted Trees](https://homes.cs.washington.edu/~tqchen/pdf/BoostedTree.pdf) - Tianqi Chen's explanation of boosted trees.
+* [Kaggle Ensembling Guide](http://mlwave.com/kaggle-ensembling-guide/) - Applied guidance for competition-style ensembles.
+* [Stacked Generalization](http://machine-learning.martinsewell.com/ensembles/stacking/) - A concise introduction to stacking models.
+* [Stacking, Blending, and Stacked Generalization](http://www.chioka.in/stacking-blending-and-stacked-generalization/) - Practical distinctions among stacking approaches.
+
+### Bayesian Machine Learning
+
+* [Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers) - A code-first introduction using probabilistic programming.
+* [Should All Machine Learning Be Bayesian?](http://videolectures.net/bark08_ghahramani_samlbb/) - A lecture on Bayesian perspectives in machine learning.
+* [Bayesian Reasoning and Deep Learning](http://blog.shakirm.com/2015/10/bayesian-reasoning-and-deep-learning/) - A conceptual bridge between Bayesian methods and deep learning.
+* [Kalman and Bayesian Filters in Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python) - A notebook-based book for filtering and state estimation.
+* [Markov Chain](https://en.wikipedia.org/wiki/Markov_chain) - Background for probabilistic sequence modeling.
+
+### Semi-Supervised Learning
+
+* [Semi-Supervised Learning](https://en.wikipedia.org/wiki/Semi-supervised_learning) - A short overview of learning with labeled and unlabeled data.
+* [Tutorial on Semi-Supervised Learning](http://pages.cs.wisc.edu/~jerryzhu/pub/sslicml07.pdf) - A classic tutorial on the field.
+* [Graph-Based Semi-Supervised Learning for NLP](http://graph-ssl.wdfiles.com/local--files/blog%3A_start/graph_ssl_acl12_tutorial_slides_final.pdf) - Slides on graph methods for language tasks.
+* [Unsupervised, Supervised, and Semi-Supervised Learning](http://stats.stackexchange.com/questions/517/unsupervised-supervised-and-semi-supervised-learning) - Community explanation of the boundaries among the learning settings.
+
+### Optimization
+
+* [Algorithms for Sparse Optimization and Machine Learning](http://www.ima.umn.edu/2011-2012/W3.26-30.12/activities/Wright-Steve/sjw-ima12) - Material on optimization for sparse machine learning models.
+* [Optimization Algorithms in Machine Learning](http://pages.cs.wisc.edu/~swright/nips2010/sjw-nips10.pdf) - Lecture material on optimization methods used in machine learning.
+* [Optimization Algorithms for Data Analysis](http://www.birs.ca/workshops/2011/11w2035/files/Wright.pdf) - A broader set of slides on optimization in data analysis.
+* [Optimization Algorithms in Support Vector Machines](http://pages.cs.wisc.edu/~swright/talks/sjw-complearning.pdf) - Support-vector-focused optimization notes.
+* [The Interplay of Optimization and Machine Learning Research](http://jmlr.org/papers/volume7/MLOPT-intro06a/MLOPT-intro06a.pdf) - A JMLR overview of how optimization and machine learning influence each other.
+* [Hyperopt Tutorial for Neural Network Hyperparameters](http://vooban.com/en/tips-articles-geek-stuff/hyperopt-tutorial-for-optimizing-neural-networks-hyperparameters/) - A practical look at hyperparameter search.
+
+## Additional Cheat Sheets
+
+Use these when you need compact formulas, model summaries, or quick reminders.
+
+* [Machine Learning Cheat Sheet](https://github.com/soulmachine/machine-learning-cheat-sheet) - A compact reference for core algorithms and concepts.
+* [ML Compiled](https://ml-compiled.readthedocs.io/en/latest/) - A searchable reference for machine learning topics.
+* [Probability Cheat Sheet](http://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf) - Formulas and definitions for probability.
+
+## Additional Practice And Interview Prep
+
+These links help with applying machine learning concepts in projects, competitions, and interviews.
+
+* [41 Essential Machine Learning Interview Questions](https://www.springboard.com/blog/machine-learning-interview-questions/) - A compact interview review list.
+* [The Big List of DS/ML Interview Resources](https://towardsdatascience.com/the-big-list-of-ds-ml-interview-resources-2db4f651bd63) - A broader interview preparation collection.
+* [Kaggle Blog](http://blog.kaggle.com/) - Competition writeups, winner interviews, and applied modeling stories.
+* [How to Almost Win Kaggle Competitions](https://yanirseroussi.com/2014/08/24/how-to-almost-win-kaggle-competitions/) - Lessons from competition workflows.
+* [How to Rank in the Top 10 Percent in Your First Kaggle Competition](https://dnc1994.com/2016/05/rank-10-percent-in-first-kaggle-competition-en/) - Practical advice for early competition work.
+* [Predicting Click-Through Rates with Online Machine Learning](http://mlwave.com/predicting-click-through-rates-with-online-machine-learning/) - A practical writeup for online prediction problems.
+
+## Additional Blogs And Software
+
+These additions expand the existing blog and software sections without changing the original entries.
+
+* [Data School](http://www.dataschool.io/) - Beginner-friendly explanations for machine learning and data science.
+* [ML Wave](http://mlwave.com/) - Applied machine learning tutorials and competition writeups.
+* [Andrej Karpathy](http://karpathy.github.io/) - Deep learning and neural network essays.
+* [Colah's Blog](http://colah.github.io/) - Visual explanations of neural network concepts.
+* [Simply Statistics](http://simplystatistics.org/) - Statistical thinking from working researchers.
+* [Variance Explained](http://varianceexplained.org/) - Data science and statistics explanations from David Robinson.
+* [Tim Dettmers](http://timdettmers.com/) - Practical deep learning performance and hardware notes.
+* [Jay Alammar](http://jalammar.github.io/) - Visual explanations of NLP and neural network models.
+* [Ethen's Machine Learning Notes](https://github.com/ethen8181/machine-learning) - Python notebooks and implementation notes.
