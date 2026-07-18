@@ -41,6 +41,7 @@ A collection of machine learning resources - books, courses, papers, software...
 * [Additional Practice And Interview Prep](#additional-practice-and-interview-prep)
 * [Additional Blogs And Software](#additional-blogs-and-software)
 * [Additional Quantitative Finance And Trading](#additional-quantitative-finance-and-trading)
+* [Additional Data Science Practice Resources](#additional-data-science-practice-resources)
 
 ## Books
 
@@ -391,3 +392,44 @@ They are selected from the themes covered by [Awesome-Quant-Machine-Learning-Tra
 * [QLearning Trading](https://github.com/ucaiado/QLearning_Trading) - Reinforcement learning experiments for trading.
 * [Deep Trading](https://github.com/Rachnog/Deep-Trading) - Deep learning experiments for algorithmic trading.
 * [Stock Market Reinforcement Learning](https://github.com/kh-kim/stock_market_reinforcement_learning) - OpenAI Gym trading environment with deep Q-learning examples.
+
+## Additional Data Science Practice Resources
+
+These resources add more applied data science, sample-code, dataset, and Indonesian-language learning material.
+They are selected from the themes covered by [datascienceid/machine-learning-resources](https://github.com/datascienceid/machine-learning-resources), with descriptions rewritten for this repository.
+
+### Books And Concept Guides
+
+* [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) - Jake VanderPlas introduces the Python data science stack with notebooks and examples.
+* [Pengenalan Pembelajaran Mesin dan Deep Learning](https://wiragotama.github.io/ebook_machine_learning.html) - Indonesian-language ebook introducing machine learning and deep learning concepts.
+* [R Programming for Data Science](https://leanpub.com/rprogramming) - Roger Peng's book on R programming for data work.
+* [Mathematics for Machine Learning](https://mml-book.github.io/) - A book focused on the linear algebra, calculus, and probability used in ML.
+* [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/) - Christoph Molnar's guide to model interpretation methods.
+
+### Courses And Tutorials
+
+* [Applied Machine Learning in Python](https://www.coursera.org/learn/python-machine-learning) - University of Michigan course on practical supervised learning with Python.
+* [Machine Learning with Big Data](https://www.coursera.org/learn/big-data-machine-learning) - UC San Diego course connecting ML workflows with larger-scale data.
+* [Complete Guide to Topic Modeling](https://nlpforhackers.io/topic-modeling/) - Practical NLP tutorial for topic modeling.
+* [Naive Bayes From Scratch in Python](https://machinelearningmastery.com/naive-bayes-classifier-scratch-python/) - Step-by-step implementation of a Naive Bayes classifier.
+* [Twitter Sentiment Analysis with NLTK](https://pythonprogramming.net/twitter-sentiment-analysis-nltk-tutorial/) - Hands-on tutorial for sentiment analysis with Python and NLTK.
+
+### Code And Project Repositories
+
+* [Practical Machine Learning with Python](https://github.com/apress/practical-ml-w-python) - Companion code for a practical ML book.
+* [Data Science From Scratch](https://github.com/joelgrus/data-science-from-scratch) - Code examples for implementing core data science ideas from first principles.
+* [Machine Learning with R](https://github.com/dataspelunking/MLwR) - Example code for machine learning workflows in R.
+* [Practical Data Science Cookbook](https://github.com/PacktPublishing/Practical-Data-Science-Cookbook-Second-Edition) - Recipe-style project examples for data science tasks.
+* [Data Science with Python](https://github.com/rubiagatra/data-science-with-python) - Indonesian-language notebooks and examples for Python data science.
+* [Deep Learning with PyTorch Code](https://github.com/deep-learning-with-pytorch/dlwpt-code) - Companion notebooks and examples for learning PyTorch.
+
+### Datasets And Libraries
+
+* [UCI Machine Learning Repository](https://archive.ics.uci.edu/) - Classic benchmark datasets for ML experiments.
+* [IMDb Datasets](https://www.imdb.com/interfaces/) - Public movie and ratings datasets for recommendation and NLP work.
+* [Caption Contest Data](https://github.com/nextml/caption-contest-data) - Dataset for caption quality and preference modeling.
+* [Indonesia Family Life Survey](https://microdata.worldbank.org/index.php/catalog/1043) - Longitudinal survey data for social science and applied ML projects.
+* [scikit-learn](https://scikit-learn.org/) - Core Python library for classical machine learning.
+* [Natural Language Toolkit](https://www.nltk.org/) - Python toolkit for teaching and building NLP workflows.
+* [XGBoost](https://github.com/dmlc/xgboost) - Gradient boosting library widely used for tabular data.
+* [spaCy](https://github.com/explosion/spaCy) - Industrial-strength NLP library for Python.
