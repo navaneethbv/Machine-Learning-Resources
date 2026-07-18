@@ -40,6 +40,7 @@ A collection of machine learning resources - books, courses, papers, software...
 * [Additional Cheat Sheets](#additional-cheat-sheets)
 * [Additional Practice And Interview Prep](#additional-practice-and-interview-prep)
 * [Additional Blogs And Software](#additional-blogs-and-software)
+* [Additional Quantitative Finance And Trading](#additional-quantitative-finance-and-trading)
 
 ## Books
 
@@ -318,7 +319,7 @@ These links help with applying machine learning concepts in projects, competitio
 
 * [Machine Learning Interview Questions](https://www.springboard.com/blog/data-science/machine-learning-interview-questions/) - A compact interview review list.
 * [The Big List of DS/ML Interview Resources](https://towardsdatascience.com/the-big-list-of-ds-ml-interview-resources-2db4f651bd63) - A broader interview preparation collection.
-* [Kaggle Blog](http://blog.kaggle.com/) - Competition writeups, winner interviews, and applied modeling stories.
+* [Kaggle GitHub](https://github.com/Kaggle) - Open source tools and examples around Kaggle workflows.
 * [How to Almost Win Kaggle Competitions](https://yanirseroussi.com/2014/08/24/how-to-almost-win-kaggle-competitions/) - Lessons from competition workflows.
 * [How to Rank in the Top 10 Percent in Your First Kaggle Competition](https://dnc1994.github.io/2016/05/rank-10-percent-in-first-kaggle-competition-en/) - Practical advice for early competition work.
 * [Click-Through Rate Prediction in Online Advertising](https://arxiv.org/abs/2202.10462) - A survey of online advertising click-through rate prediction models.
@@ -336,3 +337,57 @@ These additions expand the existing blog and software sections without changing 
 * [Tim Dettmers](http://timdettmers.com/) - Practical deep learning performance and hardware notes.
 * [Jay Alammar](http://jalammar.github.io/) - Visual explanations of NLP and neural network models.
 * [Ethen's Machine Learning Notes](https://github.com/ethen8181/machine-learning) - Python notebooks and implementation notes.
+
+## Additional Quantitative Finance And Trading
+
+These resources extend the list with machine learning material for markets, trading systems, portfolio research, and financial time series.
+They are selected from the themes covered by [Awesome-Quant-Machine-Learning-Trading](https://github.com/grananqvist/Awesome-Quant-Machine-Learning-Trading), with descriptions rewritten for this repository.
+
+### Books And Courses
+
+* [Advances in Financial Machine Learning](https://www.amazon.com/Advances-Financial-Machine-Learning-Marcos-ebook/dp/B079KLDW21/) - Marcos López de Prado's book on labeling, sampling, validation, and backtesting for financial ML.
+* [Machine Learning for Finance](https://www.amazon.com/Machine-Learning-Finance-algorithms-financial-ebook/dp/B07BDK6LF9/) - Jannes Klaas introduces market data workflows and deep learning examples for finance.
+* [Hands-On Machine Learning for Algorithmic Trading](https://www.amazon.com/Hands-Machine-Learning-Algorithmic-Trading-ebook/dp/B07JLFH7C5/) - Stefan Jansen covers strategy research with the Python data stack.
+* [Advanced Algorithmic Trading](https://www.quantstart.com/advanced-algorithmic-trading-ebook/) - Michael Halls-Moore's ebook on strategy development, backtesting, and trading infrastructure.
+* [Machine Learning for Trading](https://www.udacity.com/course/machine-learning-for-trading--ud501) - A Georgia Tech and Udacity course on applying ML to market data.
+* [AI for Trading](https://www.udacity.com/course/ai-for-trading--nd880) - A Udacity nanodegree focused on quantitative trading workflows.
+* [Guided Tour of Machine Learning in Finance](https://www.coursera.org/learn/guided-tour-machine-learning-finance) - NYU course material that introduces finance-specific ML problems.
+* [Fundamentals of Machine Learning in Finance](https://www.coursera.org/learn/fundamentals-machine-learning-in-finance) - Coursera course covering finance data, model design, and evaluation.
+* [Reinforcement Learning in Finance](https://www.coursera.org/learn/reinforcement-learning-in-finance) - Coursera course on reinforcement learning concepts for financial use cases.
+
+### Research And Papers
+
+* [FinRL: A Deep Reinforcement Learning Library for Automated Stock Trading](https://arxiv.org/abs/2011.09607) - A paper and library overview for financial reinforcement learning.
+* [Deep Learning for Finance: Deep Portfolios](https://ideas.repec.org/a/wly/apsmbi/v33y2017i1p3-12.html) - A paper on using deep learning for portfolio construction.
+* [Practical Deep Reinforcement Learning Approach for Stock Trading](https://arxiv.org/abs/1811.07522) - An arXiv paper on reinforcement learning for trading strategies.
+* [Universal Features of Price Formation in Financial Markets](https://arxiv.org/abs/1803.06917) - Deep learning perspective on price formation.
+* [A Deep Reinforcement Learning Framework for Financial Portfolio Management](https://arxiv.org/abs/1706.10059) - Portfolio allocation with reinforcement learning.
+* [Deep Learning for Limit Order Books](https://arxiv.org/abs/1601.01987) - Justin Sirignano's work on high-frequency limit order book modeling.
+* [Deep Learning for Portfolio Management](https://arxiv.org/abs/2012.13773) - A reinforcement learning view of portfolio management.
+* [Improving Stock Movement Prediction with Adversarial Training](https://arxiv.org/abs/1810.09936) - Adversarial training for stock movement prediction.
+* [Deep Learning with Long Short-Term Memory Networks for Financial Market Predictions](https://www.econstor.eu/bitstream/10419/157808/1/886576210.pdf) - LSTM modeling for financial markets.
+* [A Deep Learning Framework for Financial Time Series Using Stacked Autoencoders and LSTM](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0180944) - Deep learning architecture for financial time series.
+* [Natural Language Based Financial Forecasting](http://sentic.net/natural-language-based-financial-forecasting.pdf) - Survey of NLP methods for financial prediction.
+* [Deep Learning for Event-Driven Stock Prediction](https://www.ijcai.org/Proceedings/15/Papers/329.pdf) - Event-driven stock prediction with neural models.
+
+### Blogs, Talks, And Interviews
+
+* [QuantStart Articles](https://www.quantstart.com/articles/) - Practical articles on algorithmic trading, backtesting, and quantitative research.
+* [Robot Wealth Blog](https://robotwealth.com/blog/) - Applied posts on trading research, statistics, and market data workflows.
+* [Hudson and Thames Research](https://hudsonthames.org/research/) - Financial ML articles and research notes inspired by López de Prado's work.
+* [QuantInsti YouTube](https://www.youtube.com/user/quantinsti) - Webinars and explainers on algorithmic trading and quantitative finance.
+* [Machine Learning for Forex and Stock Analysis](https://www.youtube.com/playlist?list=PLQVvvaa0QuDe6ZBtkCNWNUbdaBo2vA4RO) - Sentdex video series on applying Python ML to market data.
+* [Python Programming for Finance](https://www.youtube.com/playlist?list=PLQVvvaa0QuDcOdF96TBtRtuQksErCEBYZ) - Sentdex series covering finance data workflows in Python.
+
+### Code And Environments
+
+* [TradingGym](https://github.com/Yvictor/TradingGym) - A reinforcement learning environment for trading experiments.
+* [BTGym](https://github.com/Kismuz/btgym) - OpenAI Gym style environment for backtesting and reinforcement learning research.
+* [FinRL](https://github.com/AI4Finance-Foundation/FinRL) - A maintained framework for financial reinforcement learning.
+* [mlfinlab](https://github.com/hudson-and-thames/mlfinlab) - Python implementations of financial machine learning research methods.
+* [Advances in Financial Machine Learning Exercises](https://github.com/BlackArbsCEO/Adv_Fin_ML_Exercises) - Exercises and examples based on López de Prado's book.
+* [MachineLearningStocks](https://github.com/robertmartin8/MachineLearningStocks) - Python and scikit-learn examples for stock prediction.
+* [PGPortfolio](https://github.com/ZhengyaoJiang/PGPortfolio) - Code for a deep reinforcement learning portfolio management paper.
+* [QLearning Trading](https://github.com/ucaiado/QLearning_Trading) - Reinforcement learning experiments for trading.
+* [Deep Trading](https://github.com/Rachnog/Deep-Trading) - Deep learning experiments for algorithmic trading.
+* [Stock Market Reinforcement Learning](https://github.com/kh-kim/stock_market_reinforcement_learning) - OpenAI Gym trading environment with deep Q-learning examples.
