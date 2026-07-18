@@ -42,6 +42,7 @@ A collection of machine learning resources - books, courses, papers, software...
 * [Additional Blogs And Software](#additional-blogs-and-software)
 * [Additional Quantitative Finance And Trading](#additional-quantitative-finance-and-trading)
 * [Additional Data Science Practice Resources](#additional-data-science-practice-resources)
+* [Additional English Interview Prep Resources](#additional-english-interview-prep-resources)
 
 ## Books
 
@@ -433,3 +434,11 @@ They are selected from the themes covered by [datascienceid/machine-learning-res
 * [Natural Language Toolkit](https://www.nltk.org/) - Python toolkit for teaching and building NLP workflows.
 * [XGBoost](https://github.com/dmlc/xgboost) - Gradient boosting library widely used for tabular data.
 * [spaCy](https://github.com/explosion/spaCy) - Industrial-strength NLP library for Python.
+
+## Additional English Interview Prep Resources
+
+These resources extend the feature-engineering, model-explanation, and interview-prep themes from Wangyu's machine learning list.
+Only links that point to English-language destination content are included here.
+
+* [Introduction to Feature Selection](https://www.kaggle.com/willkoehrsen/introduction-to-feature-selection) - Kaggle notebook showing practical feature selection methods for tabular ML workflows.
+* [Visual Information Theory](https://colah.github.io/posts/2015-09-Visual-Information/) - Visual explanation of entropy, cross entropy, KL divergence, and related information-theory ideas.
