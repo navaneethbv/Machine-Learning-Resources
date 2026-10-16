@@ -88,7 +88,7 @@ The following list contains several books - whenever free online versions are av
 
 Some isolated chapters interesting for machine learning students:
 
-* [Some Notes on Applied Mathematics for Machine Learning](http://research.microsoft.com/en-us/um/people/cburges/tech_reports/tr-2004-56.pdf) - Christopher J. C. Burges, Advanced Lectures on Machine Learning, 2004
+* [Some Notes on Applied Mathematics for Machine Learning](https://www.microsoft.com/en-us/research/publication/some-notes-on-applied-mathematics-for-machine-learning/) - Christopher J. C. Burges, Advanced Lectures on Machine Learning, 2004
 
 ### Math And Data Science Guides
 
@@ -147,7 +147,7 @@ Some useful PhD theses from students around the world:
 
 * [Learning Deep Architectures for AI](https://www.cs.princeton.edu/courses/archive/spring13/cos598C/Learning%20Deep%20Architectures%20for%20AI.pdf) - Yoshua Bengio, Foundations and Trends in Machine Learning, 2009
 * [A few useful things to know about machine learning](http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf) - Pedro Domingos, Communications of the ACM, 2012
-* [Decision Forests: A Unified Framework for Classification, Regression, Density Estimation, Manifold Learning and Semi-Supervised Learning](http://research.microsoft.com/pubs/158806/CriminisiForests_FoundTrends_2011.pdf) - Antonio Criminisi, Jamie Shotton, Ender Konukoglu, Foundations and Trends in Computer Graphics and Vision, 2012
+* [Decision Forests: A Unified Framework for Classification, Regression, Density Estimation, Manifold Learning and Semi-Supervised Learning](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/CriminisiForests_FoundTrends_2011.pdf) - Antonio Criminisi, Jamie Shotton, Ender Konukoglu, Foundations and Trends in Computer Graphics and Vision, 2012
 
 ## Topic Tutorials
 
@@ -377,7 +377,7 @@ These additions expand the existing blog and software sections without changing 
 Some professors, researchers and students working in machine learning:
 
 * [Blum, Avrim](https://home.ttic.edu/~avrim/)
-* [Criminisi, Antonio](http://research.microsoft.com/en-us/people/antcrim/)
+* [Criminisi, Antonio](https://www.microsoft.com/en-us/research/people/acriminisi/publications/)
 * [Sontag, David](https://people.csail.mit.edu/dsontag/)
 * [Pierre Geurts](http://www.montefiore.ulg.ac.be/~geurts/)
     * [Gilles Louppe](http://www.montefiore.ulg.ac.be/~glouppe/)
