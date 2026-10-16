@@ -78,7 +78,7 @@ The applied data science entries in this guide were selected from themes covered
 
 The following list contains several books - whenever free online versions are available, this should be noted correspondingly.
 
-* [Pattern Recognition and Machine Learning](http://research.microsoft.com/en-us/um/people/cmbishop/prml/) - Christopher M. Bishop
+* [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/publication/pattern-recognition-machine-learning/) - Christopher M. Bishop
 * [Machine Learning: A Probabilistic Perspective](http://www.cs.ubc.ca/~murphyk/MLbook/) - Kevin Murphy
 * [Bayesian Reasoning and Machine Learning](http://www.cs.ucl.ac.uk/staff/d.barber/brml/) - **free pdf** - David Barber
 * [Probabilistic Graphical Models: Principles and Techniques](https://books.google.com/books?id=7dzpHCHzNQ4C) - Daphne Koller, Nir Friedman
@@ -155,7 +155,7 @@ Use this section when you want a focused entry point for one machine learning to
 
 ### Foundations
 
-* [Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning) - A classic introduction to supervised learning, unsupervised learning, and practical model building.
+* [Machine Learning Specialization](https://www.deeplearning.ai/specializations/machine-learning) - Andrew Ng's introductory sequence from DeepLearning.AI and Stanford Online, covering supervised learning, unsupervised learning, and practical model building.
 * [Comparison of Supervised Learning Algorithms](http://www.dataschool.io/comparing-supervised-learning-algorithms/) - A plain-language comparison of common supervised models.
 * [Learning Data Science Fundamentals](http://www.dataschool.io/learning-data-science-fundamentals/) - A practical guide to the surrounding skills used in data science.
 * [Machine Learning FAQs on Cross Validated](http://stats.stackexchange.com/questions/tagged/machine-learning) - Community explanations for recurring machine learning questions.
